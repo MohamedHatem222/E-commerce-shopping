@@ -798,6 +798,18 @@
     .owl-theme .owl-dots {
         display: none;
     }
+    
+    .owl-product .owl-nav button.owl-next span {
+        position: absolute;
+        top: 1px;
+        left: 13px;
+    }
+    
+    .owl-product .owl-nav button.owl-prev span {
+        position: absolute;
+        top: 1px;
+        left: 10px;
+    }
     /*End product list*/
     /*Start section center background*/
     
@@ -990,6 +1002,18 @@
         position: absolute;
         top: 30%;
         left: 0;
+    }
+    
+    .owl-article .owl-nav button.owl-next span {
+        position: absolute;
+        top: 1px;
+        left: 13px;
+    }
+    
+    .owl-article .owl-nav button.owl-prev span {
+        position: absolute;
+        top: 1px;
+        left: 10px;
     }
     /*Start articles*/
     /*End articles*/
