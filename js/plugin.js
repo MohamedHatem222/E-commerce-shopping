@@ -74,7 +74,7 @@ $(document).ready(function() {
     });
 
     //owl-carousel
-    $('.owl-carousel').owlCarousel({
+    $('.owl-product').owlCarousel({
         loop: true,
         margin: 20,
         nav: true,
@@ -89,7 +89,43 @@ $(document).ready(function() {
                 items: 4
             }
         }
-    })
+    });
+
+
+
+    $('.owl-article').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    });
+
+    $('.owl-assets').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    });
 
 
 
