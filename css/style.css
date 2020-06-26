@@ -334,8 +334,8 @@
 
 .slick-slide .bg1 .bg-inner {
     position: absolute;
-    top: 35%;
-    left: 40%;
+    top: 36%;
+    left: 36%;
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     transform-origin: 50% 50% 0px;
 }
@@ -344,12 +344,13 @@
     color: #FFF;
     text-align: center;
     margin-bottom: 30px;
+    font-size: 51px;
 }
 
 .slick-slide .bg1 .bg-inner span {
     background-color: #FFF;
     padding: 8px 20px;
-    margin: 0 100px;
+    margin: 0 133px;
 }
 
 .slick-slide .bg1 .bg-inner a {
@@ -442,7 +443,7 @@
 
 .slick-slide .bg4 .bg-inner4 .center-img {
     position: absolute;
-    top: 40%;
+    top: 24%;
     left: 25%;
 }
 
