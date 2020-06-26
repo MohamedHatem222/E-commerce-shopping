@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
@@ -107,31 +108,39 @@
         <div class="main-nav">
             <div class="container">
                 <div class="row">
-                    <div class="main-navigation d-flex justify-content-between">
-                        <ul class="main-nav">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Shop</a></li>
-                            <li><a href="#">Feauters</a></li>
-                            <li><a href="#">pages</a></li>
-                        </ul>
-                        <div class="navigation-icons">
-                            <ul class="main-icons">
-                                <li class="search-icon">
-                                    <i class="fas fa-search"></i>
-                                </li>
-                                <li class="cart-icon">
-                                    <i class="fas fa-shopping-bag"></i>
-                                    <span class="price">£ 0.00</span>
-                                </li>
+                    <nav class="navbar navbar-expand-lg">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <div class="main-navigation d-flex justify-content-between">
+                                <ul class=" navbar-nav main-nav-two">
+                                    <li class="nav-item"><a href="#">Home</a></li>
+                                    <li class="nav-item"><a href="#">Shop</a></li>
+                                    <li class="nav-item"><a href="#">Feauters</a></li>
+                                    <li class="nav-item"><a href="#">pages</a></li>
+                                </ul>
+                                <div class="navigation-icons">
+                                    <ul class="main-icons">
+                                        <li class="search-icon">
+                                            <i class="fas fa-search"></i>
+                                        </li>
+                                        <li class="cart-icon">
+                                            <i class="fas fa-shopping-bag"></i>
+                                            <span class="price">£ 0.00</span>
 
-                            </ul>
-                            <ul class="sub-menu">
-                                <li class="one">0 items in the shopping bag</li>
-                                <li class="two">Unfortunately, your shopping bag is empty.</li>
-                                <li class="three"><span>Go To The Shop</span></li>
-                            </ul>
+                                            <ul class="sub-menu">
+                                                <li class="one">0 items in the shopping bag</li>
+                                                <li class="two">Unfortunately, your shopping bag is empty.</li>
+                                                <li class="three"><span>Go To The Shop</span></li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                    </nav>
                 </div>
             </div>
         </div>
@@ -431,7 +440,7 @@
     <!--Start product widget-->
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="col-lg-3 col-md-66 col-sm-12">
                 <div class="product-list m">
                     <h4 class="list-heading">
                         <span> Best Sellers </span>
@@ -466,7 +475,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="col-lg-3 col-md-6 col-sm-12">
                 <div class="product-list m">
                     <h4 class="list-heading">
                         <span> Top Rated </span>
@@ -514,7 +523,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="col-lg-3 col-md-6 col-sm-12">
                 <div class="product-list m">
                     <h4 class="list-heading">
                         <span> Sale products </span>
@@ -539,7 +548,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="col-lg-3 col-md-6 col-sm-12">
                 <div class="product-list m">
                     <h4 class="list-heading">
                         <span> Featured </span>
@@ -568,7 +577,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="article">
                     <div class="article-img"></div>
                 </div>
@@ -583,7 +592,7 @@
                 </div>
 
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="article">
                     <div class="article-img two"></div>
                 </div>
@@ -597,7 +606,7 @@
                     </span>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="article">
                     <div class="article-img three"></div>
                 </div>
@@ -611,7 +620,7 @@
                     </span>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="owl-article owl-carousel owl-theme">
                     <div class="item">
                         <div class="article">
@@ -728,6 +737,160 @@
 
     </section>
     <!--End assets-->
+    <!--Start footer-->
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="product-list n">
+                        <h4 class="list-heading">
+                            <span> Welcome to Neighborhood </span>
+                        </h4>
+                    </div>
+                    <div class="footer-img">
+                        <img src="http://neighborhood.swiftideas.net/wp-content/uploads/2013/06/welcome.png" alt="">
+                    </div>
+                    <div class="footer-word">
+                        <span>Neighborhood is a clean, responsive & retina-ready eCommerce WordPress theme. It has everything you need to start selling today!</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="product-list n">
+                        <h4 class="list-heading">
+                            <span> About Neighborhood </span>
+                        </h4>
+                    </div>
+                    <div class="footer-menu">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span> Our Story</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span> Stores</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span> Press</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span> Events</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </li>
+                            <li class="last">
+                                <a href="#">
+                                    <span> Contact</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="product-list n">
+                        <h4 class="list-heading">
+                            <span> Online Shopping </span>
+                        </h4>
+                    </div>
+                    <div class="footer-menu">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span> F.A.Q.’s</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Delivery & Returns</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Ordering Tracking</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span> Payment</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </li>
+                            <li class="last">
+                                <a href="#">
+                                    <span> Privacy</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="product-list n">
+                        <h4 class="list-heading">
+                            <span> Follow Us </span>
+                        </h4>
+                    </div>
+                    <div class="footer-icons">
+                        <ul>
+                            <li>
+                                <i class="fab fa-dribbble"></i>
+                            </li>
+                            <li>
+                                <i class="fab fa-facebook-f"></i>
+                            </li>
+                            <li>
+                                <i class="fab fa-twitter"></i>
+                            </li>
+                            <li>
+                                <i class="fab fa-vimeo-v"></i>
+                            </li>
+                            <li>
+                                <i class="fab fa-youtube"></i>
+                            </li>
+                            <li>
+                                <i class="fab fa-tumblr"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="footer-f">
+                        <label for="footer-form">
+                            Sign up for our newsletter:
+                        </label>
+                        <div class="footer-in">
+                            <input type="email" placeholder="Enter your email address here" name="footer-form">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End footer-->
+    <!--Start copyright-->
+    <section class="copyright">
+        <div class="container">
+            <div class="row">
+                <span>©2020 Neighborhood · Built with love by <a href="#"> Swift Ideas</a> using <a href="#"> WordPress</a>.</span>
+            </div>
+        </div>
+    </section>
+    <!--End copyright-->
+    <!--Start top arrow-->
+    <div class="arrow">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    <!--End top arrow-->
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

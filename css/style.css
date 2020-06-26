@@ -11,6 +11,14 @@
     padding-top: 4px;
 }
 
+.top-bar .left-side {
+    position: relative;
+}
+
+.top-bar .right-side {
+    position: relative;
+}
+
 .top-footer .left-side p {
     font-size: 12px;
 }
@@ -34,6 +42,7 @@
 .header .headers {
     width: 100%;
     color: #252525;
+    position: relative;
 }
 
 .header-left ul {
@@ -160,6 +169,7 @@
     padding: 0;
     margin: 0;
     z-index: 9999;
+    transition: all ease-in-out 0.5s;
 }
 
 .header-languages li {
@@ -185,6 +195,17 @@
 
 .main-nav {
     border-top: solid 1px #e4e4e4;
+}
+
+.main-nav-two {
+    padding: 15px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .main-navigation {
@@ -239,7 +260,7 @@
     color: #1bbeb4;
 }
 
-.navigation-icons .main-icons .cart-icon:hover {
+.navigation-icons .main-icons .cart-icon i:hover {
     color: #1bbeb4;
 }
 
@@ -266,10 +287,12 @@
     display: none;
     list-style: none;
     position: absolute;
+    padding: 0;
     top: 60px;
     left: -130px;
     background-color: #FFF;
     z-index: 9999;
+    transition: all ease-in-out 0.5s;
 }
 
 .main-nav .navigation-icons .sub-menu li {
@@ -281,7 +304,7 @@
 .main-nav .navigation-icons .sub-menu .three {
     background-color: #EEE;
     width: 250px;
-    margin-left: 5px;
+    margin-left: 15px;
     margin-top: 10px;
     cursor: pointer;
     transition: all ease 0.7s;
@@ -419,7 +442,7 @@
 
 .slick-slide .bg4 .bg-inner4 .center-img {
     position: absolute;
-    top: 120%;
+    top: 40%;
     left: 25%;
 }
 
@@ -452,7 +475,7 @@
 
 .slick-slide .bg5 .bg-inner5 .left-side {
     position: absolute;
-    top: 120%;
+    top: 20%;
     left: 10%;
 }
 
@@ -477,7 +500,7 @@
 
 .slick-slide .bg5 .bg-inner5 .right-side {
     position: absolute;
-    top: 120%;
+    top: 9%;
     right: 18%;
 }
 
@@ -490,7 +513,7 @@
     width: 154px;
     height: 274px;
     position: absolute;
-    top: 120%;
+    top: 40%;
     right: -20%;
 }
 
@@ -957,8 +980,8 @@
 .article {
     width: 270px;
     height: 202.5px;
-    overflow: hidden;
     position: relative;
+    overflow: hidden;
 }
 
 .article .article-img {
@@ -1198,3 +1221,167 @@
 
 
 /*End assets*/
+
+
+/*Start footer*/
+
+.footer {
+    background-color: #252525;
+    color: #FFF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.n {
+    padding-top: 0;
+}
+
+.footer .n .list-heading span {
+    background-color: #252525;
+    padding: 10px 10px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.footer .footer-img img {
+    padding: 10px 0;
+}
+
+.footer .footer-word {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 13px;
+}
+
+.footer .footer-menu {
+    width: 100%;
+}
+
+.footer .footer-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer .footer-menu ul li {
+    border-bottom: 1px solid #333333;
+    padding-bottom: 10px;
+}
+
+.footer .footer-menu ul li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    color: #FFF;
+    transition: all ease 0.5s;
+}
+
+.footer .footer-menu ul li a:hover {
+    color: #1bbeb4;
+}
+
+.footer .footer-menu ul .last {
+    border-bottom: none;
+}
+
+.footer .footer-icons ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.footer .footer-icons ul li {
+    padding-left: 20px;
+    font-size: 23px;
+    cursor: pointer;
+    border-bottom: 1px solid #333333;
+    padding-bottom: 15px;
+}
+
+.footer .footer-f {
+    padding: 25px 0;
+}
+
+.footer .footer-in {
+    position: relative;
+}
+
+.footer input {
+    width: 100%;
+}
+
+.footer .footer-in:after {
+    position: absolute;
+    content: "\f0e0";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    top: 4px;
+    right: 8px;
+    color: #999999;
+}
+
+.footer input:focus {
+    border: none;
+    outline: none;
+}
+
+.footer input {
+    padding-left: 10px;
+}
+
+.footer input::placeholder {
+    font-size: 13px;
+}
+
+
+/*End footer*/
+
+
+/*Start copyright*/
+
+.copyright {
+    width: 100%;
+    background-color: #000000;
+}
+
+.copyright span {
+    color: #666666;
+    font-size: 11px;
+    padding: 15px;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #FFF;
+    transition: all ease 0.5s;
+}
+
+.copyright a:hover {
+    color: #1bbeb4;
+}
+
+.arrow {
+    position: fixed;
+    right: 90px;
+    bottom: 10px;
+    z-index: 99999;
+}
+
+.arrow i {
+    font-size: 15px;
+    font-weight: 900;
+    color: #FFF;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.arrow i:hover {
+    color: #1bbeb4;
+}
+
+
+/*End copyright*/
