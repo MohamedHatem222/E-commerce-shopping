@@ -1116,8 +1116,8 @@
     width: 100%;
     height: 300px;
     margin-top: 30px;
-    background: url(http://neighborhood.swiftideas.net/wp-content/uploads/2013/06/ff_rp_bkg2.png) no-repeat center center;
-    background-size: cover;
+    background: url(http://neighborhood.swiftideas.net/wp-content/uploads/2013/06/ff_rp_bkg2.png)repeat top center;
+    background-size: auto;
     overflow: hidden;
     position: relative;
 }
@@ -1386,3 +1386,252 @@
 
 
 /*End copyright*/
+
+
+/*Start shop.html*/
+
+.page-heading {
+    background: url(http://neighborhood.swiftideas.net/wp-content/uploads/2013/06/ff_rp_bkg2.png) repeat center top;
+    background-size: auto;
+    width: 100%;
+    height: 80px;
+    box-shadow: 10px 1px 5px -1px rgba(0, 0, 0, .2);
+}
+
+.page-heading-inner {
+    width: 100%;
+    padding-top: 18px;
+}
+
+.neighborhood {
+    padding: 5px 5px;
+    background-color: #FFF;
+    font-size: 11px;
+    color: #999999;
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, .1);
+}
+
+.neighborhood a {
+    text-decoration: none;
+    color: #999999;
+    transition: all ease 0.5s;
+}
+
+.neighborhood a:hover {
+    color: #1bbeb4;
+}
+
+.neighborhood i {
+    padding: 0px 9px;
+    line-height: 15px;
+}
+
+
+/*Start shop content*/
+
+.shop-content {
+    padding-top: 45px;
+}
+
+.shop-content .shop-title {
+    width: 100%;
+    position: relative;
+}
+
+.shop-content .shop-title:after {
+    content: "";
+    position: absolute;
+    bottom: -23px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #e4e4e4;
+}
+
+.shop-content .results span {
+    color: #000;
+    font-size: 14px;
+}
+
+.shop-content select {
+    border-color: #e4e4e4;
+    background: #f7f7f7;
+    padding: 5px 2px;
+    font-size: 14px;
+    color: #252525;
+}
+
+.product-transition {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 6px -7px #999;
+}
+
+.product-transition .onsale {
+    background: #ef3f32;
+    color: #fff;
+    text-shadow: none;
+    box-shadow: none;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    padding: 4px;
+    width: 120px;
+    z-index: 4;
+    min-width: auto!important;
+    height: 26px!important;
+    min-height: 26px!important;
+    max-height: 26px!important;
+    margin: 0!important;
+    border-radius: 0;
+    right: -31px!important;
+    top: 16px!important;
+    left: auto;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: bold;
+    transform: rotate(45deg);
+}
+
+.product-transition .stock {
+    background: #666666;
+    color: #fff;
+    text-shadow: none;
+    box-shadow: none;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    padding: 4px;
+    width: 120px;
+    z-index: 4;
+    min-width: auto!important;
+    height: 26px!important;
+    min-height: 26px!important;
+    max-height: 26px!important;
+    margin: 0!important;
+    border-radius: 0;
+    right: -31px!important;
+    top: 16px!important;
+    left: auto;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: bold;
+    transform: rotate(45deg);
+}
+
+.product-img-wrap {
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.product-img.second-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+.product-img {
+    transition: transform .5s ease-in-out;
+    opacity: 1;
+}
+
+.over .product-img img {
+    width: 100%;
+}
+
+.over .second-img img {
+    width: 100%;
+}
+
+.product-img-wrap:hover .product-img {
+    transform: translate3d(0px, -370px, 0px);
+}
+
+.product-details {
+    padding-top: 10px;
+}
+
+.product-details .price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-details .price h4 {
+    font-size: 13px;
+}
+
+.product-details .price a {
+    color: #000;
+    text-decoration: none;
+    transition: all ease 0.5s;
+}
+
+.product-details a:hover {
+    color: #1bbeb4;
+}
+
+.product-details .price span {
+    line-height: 1;
+    font-size: 13px;
+}
+
+.product-details a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 13px;
+    transition: all ease 0.5s;
+}
+
+.product-transition figcaption {
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    font-size: 12px;
+}
+
+.product-transition figcaption .shop-actions {
+    position: relative;
+    min-height: 40px;
+    background: #252525;
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 10px;
+    transition: transform .5s ease-in-out;
+}
+
+.product-transition figcaption .shop-actions a {
+    text-decoration: none;
+    color: #FFF;
+    text-transform: uppercase;
+    transition: all ease 0.5s;
+    font-weight: 600;
+}
+
+.product-transition figcaption .shop-actions a:hover {
+    color: #1bbeb4;
+}
+
+.product-transition:hover .shop-actions {
+    transform: translateY(-80px);
+}
+
+.over {
+    overflow: hidden;
+    margin: 63px 0;
+}
+
+
+/*End shop content*/
+
+
+/*End shop.html*/
