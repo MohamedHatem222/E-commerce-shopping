@@ -59,7 +59,7 @@
         display: none;
     }
     .slick-slide .bg1 .bg-inner {
-        left: 30%;
+        left: 23%;
     }
     .slick-slide .bg2 .bg-inner2 .shoe {
         width: 70%;
@@ -150,9 +150,16 @@
     .product-img-wrap:hover .product-img {
         transform: translate3d(0px, -468px, 0px);
     }
+    .navigation-icons {
+        top: 30px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
+    .navigation-icons {
+        top: 30px;
+        right: 0;
+    }
     .header-right {
         position: absolute;
         top: 0px;
@@ -177,10 +184,10 @@
         font-size: 28px;
     }
     .slick-slide .bg1 .bg-inner {
-        left: 12%;
+        left: 7%;
     }
     .slick-slide .bg1 .bg-inner span {
-        padding: 6px 12px;
+        padding: 6px 6px;
     }
     .slick-slide .bg1 {
         height: 362px;
@@ -214,7 +221,7 @@
         width: 31%;
         height: 37px;
     }
-    .bg2 .bg-inner2 a {
+    .slick-slide .bg2 .bg-inner2 a {
         top: 62%;
         left: 67px;
         font-size: 11px;
@@ -373,13 +380,13 @@
         font-size: 8px;
     }
     .slick-slide .bg1 .bg-inner {
-        left: 8%;
+        left: 5%;
     }
     .slick-slide .bg1 .bg-inner a {
         font-size: 14px;
     }
     .slick-slide .bg1 .bg-inner span {
-        padding: 3px 9px;
+        padding: 3px 3px;
     }
     .slick-slide .bg1 {
         height: 300px;
@@ -456,16 +463,16 @@
         width: 160px;
     }
     .slick-slide .bg1 .bg-inner {
-        left: 6%;
+        left: 0;
     }
     .slick-slide .bg1 .bg-inner h1 {
         font-size: 24px;
     }
     .slick-slide .bg1 .bg-inner span {
-        padding: 0px 9px;
+        padding: 0px 0px;
     }
     .slick-slide .bg1 .bg-inner a {
-        font-size: 11px;
+        font-size: 9px;
     }
     .slick-slide .bg1 {
         height: 245px;
