@@ -131,8 +131,19 @@ $(document).ready(function() {
         }, 600);
     });
 
+    //progress chart
+    $(function() {
 
+        $('.circlechart').circlechart();
 
+    });
+    $(function() {
+
+        $('.chart').easyPieChart({
+
+        })
+
+    });
 
 
 
