@@ -137,13 +137,6 @@ $(document).ready(function() {
         $('.circlechart').circlechart();
 
     });
-    $(function() {
-
-        $('.chart').easyPieChart({
-
-        })
-
-    });
 
 
 

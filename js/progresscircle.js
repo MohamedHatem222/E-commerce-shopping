@@ -28,6 +28,7 @@ function makesvg(percentage, inner_text = "") {
     return svg
 }
 
+
 (function($) {
 
     $.fn.circlechart = function() {

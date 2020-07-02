@@ -1383,7 +1383,7 @@
 .arrow i {
     font-size: 15px;
     font-weight: 900;
-    color: #FFF;
+    color: #1bbeb4;
     transition: all ease 0.5s;
     cursor: pointer;
     z-index: 9999;
@@ -1903,3 +1903,101 @@ figure img {
 
 
 /*End aboutus.html*/
+
+
+/*Start contact.html*/
+
+
+/*Start form*/
+
+.contact-form {
+    padding: 100px 0;
+}
+
+.contact-form label {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.contact-form .form-control {
+    margin-bottom: 30px;
+    background-color: #f7f7f7;
+}
+
+.contact-form .form-button {
+    background-color: #1bbeb4;
+    padding: 8px 28px 7px 14px;
+    font-size: 15px;
+    color: #FFF;
+    font-weight: 600;
+    border-radius: 14px;
+    text-align: center;
+    border: none;
+    outline: none;
+    display: inline-block;
+    background-image: url(../images/button-arrow.png);
+    background-position: 83% 55%;
+    background-repeat: no-repeat;
+    transition: all ease 0.5s;
+}
+
+.contact-form .form-button:hover {
+    border-radius: 0;
+}
+
+.right-column {
+    padding: 125px 0;
+}
+
+.right-column h3 {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.right-column .num-button {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #000;
+    border-radius: 22px;
+    padding: 10px 0;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    display: block;
+    width: 80%;
+    transition: all ease 0.5s;
+}
+
+.right-column .num-button:hover {
+    border-radius: 0;
+}
+
+.right-column .num-button span {
+    padding: 15px 10px;
+    font-size: 19px;
+}
+
+.right-column p {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.right-column .mail {
+    margin-top: 30px;
+}
+
+.right-column .mail a {
+    text-decoration: none;
+    color: #666666;
+    transition: all ease 0.5s;
+}
+
+.right-column .mail a:hover {
+    color: #1bbeb4;
+}
+
+
+/*End form*/
+
+
+/*End contact.html*/
