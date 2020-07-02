@@ -372,7 +372,7 @@
     .product-img-wrap:hover .product-img {
         transform: translate3d(0px, -550px, 0px);
     }
-    .neighborhood .flix {
+    .neighborhood {
         display: none;
     }
     .page-heading-inner .shop-word {

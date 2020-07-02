@@ -1413,6 +1413,7 @@
 }
 
 .neighborhood {
+    display: flex;
     padding: 5px 5px;
     background-color: #FFF;
     font-size: 11px;
